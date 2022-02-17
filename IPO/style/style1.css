@@ -1,0 +1,34 @@
+html{
+    background-color: blanchedalmond;
+    margin: 1rem;
+}
+
+#top{
+    border: 1px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(252, 222, 178);
+    align-items: center;
+}
+
+#top a{
+    text-decoration: none;
+    color: blueviolet;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: rgb(233, 191, 128);
+}
+
+a:hover{
+    background-color: rgb(240, 182, 95);
+}
+
+.to_top{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/20/20901.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}

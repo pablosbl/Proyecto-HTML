@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+/*@font-face {
+    font-family: "trebuc";
+    src: url("fonts/trebuchet/trebuc.ttf");
+}*/
+
+body{
+    background-color: #EAEAEA;
+    font-family: 'Lato', sans-serif;
+    min-height:0%;
+    margin: 0;
+}
+
+.header {
+    height: 120px;
+    background-color: white;
+    background-image: url(../media/logo_usal.png);
+    background-repeat:no-repeat;
+    background-position: center top;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#top{
+    position: sticky;
+    top: 0;
+    background-color: #D22020;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    top: 120px;
+    align-items: center;
+    z-index: 100;
+}
+
+#top a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#top a:hover{
+    color: lightgrey;
+}
+
+h2{
+    color: #D22020;
+    letter-spacing: 0.08em;
+    text-align: center;
+}
+
+.section_text{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.to_top{
+    display:block;
+    text-align:center
+}
+
+.to_top a{
+    content: url(../media/home.png);
+    color: transparent;
+    width: 5rem;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 1px solid #C2C2C2;
+    width:30%;
+    position: relative;
+    left: 50.5%;
+}
+
+.need_title.main {
+    display: none; 
+}
+
+.need{
+    position: relative;
+    float:left;
+    width:50%;
+    height:550px;
+    text-align: center;
+}
+
+.need p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+}
+
+.need:nth-child(even) .separador{
+    display: none;
+}
+
+.need:nth-child(even){
+    height: 540px;
+    padding-top: 10px;
+}
+
+p.need_value{
+    margin: 0.5rem;
+}
+
+h3.need_title{
+    margin: 0;
+}
+
+.need iframe.media{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    padding-bottom: 2rem;
+}
+
+.need:nth-child(9){
+    background-color: lightgreen;
+    position: relative;
+    left: 25%;
+}
+
+.need:nth-child(9) .separador{
+    left: 0;
+}
+
+iframe + .to_top {
+    background-color: yellow;
+    float: left;
+    width: 100%;
+}
+
+#Tecnologias{
+   background-color: yellow;
+   float: left;
+   width: 100%;
+}
+
+#Impacto{
+    background-color: yellow;
+    float: left;
+    width: 100%;
+ }
+
+#Referencias{
+    background-color: yellow;
+    float: left;
+    width: 100%;
+ }
